@@ -1,0 +1,57 @@
+* text=auto
+
+# Source and configuration files use LF on Windows, macOS and CI.
+*.c text eol=lf
+*.cpp text eol=lf
+*.entitlements text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.m text eol=lf
+*.mm text eol=lf
+*.mjs text eol=lf
+*.plist text eol=lf
+*.xcprivacy text eol=lf
+*.pbxproj text eol=lf
+*.podspec text eol=lf
+*.properties text eol=lf
+*.gradle text eol=lf
+*.html text eol=lf
+*.sh text eol=lf
+*.storyboard text eol=lf
+*.svg text eol=lf
+*.swift text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.txt text eol=lf
+*.xml text eol=lf
+*.xcworkspacedata text eol=lf
+*.css text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+.gitattributes text eol=lf
+.env.example text eol=lf
+.gitignore text eol=lf
+Gemfile text eol=lf
+gradlew text eol=lf
+LICENSE text eol=lf
+Podfile text eol=lf
+
+# Windows launchers keep CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Media and archives are binary.
+*.flac binary
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.m4a binary
+*.mp3 binary
+*.ogg binary
+*.png binary
+*.wav binary
+*.zip binary
